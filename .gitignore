@@ -1,0 +1,28 @@
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Unity packages cache (should live under Library anyway)
+**/PackageCache/
+
+# Optional: addressables cache etc
+**/AssetStoreTools*
