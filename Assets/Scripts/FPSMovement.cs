@@ -35,7 +35,7 @@ public class FPSMovement : MonoBehaviour
         if (sprintAction != null) sprintAction.action.Disable();
     }
 
-    void Update()
+     private void Update()
     {
         Vector2 move2D = moveAction != null ? moveAction.action.ReadValue<Vector2>() : Vector2.zero;
 
